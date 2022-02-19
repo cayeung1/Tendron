@@ -17,10 +17,10 @@ class Tendril{
     int startY = myY;
     
     if(myNumSegments >= 60){
-      stroke(202, 0, 42);
+      stroke(100, 0, 42);
     }
     else if(myNumSegments >= 30){
-      stroke(212, 175 ,55);
+      stroke(50, 175 ,55);
     }
     else if(myNumSegments >= 10){
       stroke(0, 0, 0);
